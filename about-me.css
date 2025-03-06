@@ -1,0 +1,150 @@
+.oswald-h1 {
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.7rem;
+}
+
+h3 {
+  margin-top: 80px;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+
+#home {
+    background-image: linear-gradient(to bottom right, #93bbfa, #317df7, #004dc9);
+    transition: box-shadow .2s;
+}
+
+#music {
+    background-image: linear-gradient(to bottom right, #7ff57f, #32a132, #086608);
+    transition: box-shadow .2s;
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+body {
+    background-image: url('cool-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed:
+}
+
+
+button {
+  background-color: #cf245f;
+  background-image: linear-gradient(to bottom right, #fcd34d, #ef4444, #ec4899);
+  border: 0;
+  border-radius: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.125rem; /* 18px */
+  font-weight: 600;
+  line-height: 1.75rem; /* 28px */
+  width: 300px;
+  padding: 15px 25px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  box-shadow: none;
+}
+
+@media (min-width: 1024px) {
+  button {
+    font-size: 1.5rem; /* 24px */
+    padding: 1rem 1.5rem;
+    line-height: 2rem; /* 32px */
+  }
+}
+
+.picture {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
+
+.picture1 {
+  width: 419px;
+  height: 609px;
+  display: block;
+  margin-left: 50px;
+  top: -50px;
+  margin-top: -100px;
+  border: 5px solid #004dc9;
+}
+
+.picture2 {
+  width: 419px;
+  height: 609px;
+  display: block;
+  position: relative;
+  margin-right: 50px;
+  margin-top: -100px;
+  border: 5px solid #004dc9;
+}
+
+p {
+  display: block;
+  margin-left: 600px;
+  margin-right: 600px;
+  margin-top: 60px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.embed-music {
+    width: 600px;
+    height: 700px;
+    float: left;
+    margin-left: 150px;
+    padding-top: 30px;
+}
+
+.video-container {
+    float: right;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding-top: 20px;
+    padding-right: 200px;
+}
+
+.embed-video {
+    overflow: hidden;
+    aspect-ratio: 1;
+    cursor: pointer;
+    border: 2px solid #cf245f;
+}
+
+.embed-video video {
+    display:block;
+    width:150%;
+    height:150%;
+    object-fit: cover;
+}

@@ -1,0 +1,91 @@
+.oswald-h1 {
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+h3 {
+    margin-top: 180px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+#home {
+    background-image: linear-gradient(to bottom right, #93bbfa, #317df7, #004dc9);
+    transition: box-shadow .2s;
+}
+
+#music {
+    background-image: linear-gradient(to bottom right, #7ff57f, #32a132, #086608);
+    transition: box-shadow .2s;
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+body {
+    background-image: url('cool-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed:
+}
+
+
+button {
+  background-color: #cf245f;
+  background-image: linear-gradient(to bottom right, #fcd34d, #ef4444, #ec4899);
+  border: 0;
+  border-radius: 15px;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-size: 6px;
+  /* font-weight: 600; */
+  line-height: 20px;
+  width: 260px;
+  padding: 15px 25px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  box-shadow: none;
+}
+
+@media (min-width: 1024px) {
+  button {
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+.paragraph {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 1.5rem;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #cf245f;
+    background-image: linear-gradient(to bottom right, #fcd34d, #ef4444, #ec4899);
+    border: 0;
+    border-radius: 15px;
+}
+
+.time {
+    margin-top: 30px;
+}
